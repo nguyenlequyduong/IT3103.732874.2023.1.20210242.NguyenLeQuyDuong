@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b91c2f24-5a1c-4b20-8ba8-fa2fee4b64be" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ArraysInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArraysInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChoosingOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChoosingOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayOfMonth.java" beforeDir="false" afterPath="$PROJECT_DIR$/DayOfMonth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/FirstDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloNameDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/HelloNameDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InputFromKeyBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/InputFromKeyBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InputTwoDoubles.java" beforeDir="false" afterPath="$PROJECT_DIR$/InputTwoDoubles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinearEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinearEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinearSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinearSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatricesAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/MatricesAddition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrintStars.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrintStars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShowTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShowTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex4.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2XRtp2XsseXtzEMHErvXHZtP0bx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b91c2f24-5a1c-4b20-8ba8-fa2fee4b64be" name="Changes" comment="" />
+      <created>1698603899501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698603899501</updated>
+      <workItem from="1698603901580" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
