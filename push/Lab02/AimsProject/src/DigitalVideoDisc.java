@@ -6,6 +6,8 @@ public class DigitalVideoDisc {
     private int length;       // Độ dài của đĩa DVD (phút)
     private float cost;       // Giá của đĩa DVD
 
+    private static int nbDigitalvideoDiscs = 0;
+
     // Constructor: Các constructor để tạo đối tượng đĩa DVD với các thông tin khác nhau
     public DigitalVideoDisc(String title) {
         this.title = title;
