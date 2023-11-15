@@ -1,0 +1,2 @@
+Q: Is JAVA a Pass by Value or a Pass bt Reference programming language?
+A: JAVA is a Pass by Value programming language
