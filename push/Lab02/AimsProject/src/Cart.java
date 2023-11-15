@@ -1,10 +1,10 @@
 public class Cart {
     // Attribute: Mảng lưu trữ các đĩa DVD trong giỏ hàng
     private DigitalVideoDisc[] itemsOrdered = new DigitalVideoDisc[MAX_NUMBERS_ORDERED];
-    
+
     // Số lượng đĩa DVD hiện có trong giỏ hàng
     private int qtyOrdered;
-    
+
     // Hằng số xác định số lượng tối đa của đĩa DVD trong giỏ hàng
     public static final int MAX_NUMBERS_ORDERED = 20;
 
@@ -51,6 +51,52 @@ public class Cart {
         System.out.println("The disc has been added");
     }
 
+    // Method to add a list of DVD
+    public void addDigitalVideoDisc(DigitalVideoDisc[] dvdList) {
+        // Kiểm tra xem giỏ hàng đã đầy chưa
+        if (getQtyOrdered() >= 20) {
+            System.out.println("The cart is almost full");
+            return;
+        }
+        // Tăng số lượng đĩa DVD trong giỏ hàng
+        setQtyOrdered(getQtyOrdered() + dvdList.length);
+
+        // Thêm đĩa DVD vào giỏ hàng
+        DigitalVideoDisc[] newItemsOrdered = getItemsOrdered();
+        for (int i = 0; i < dvdList.length){
+            newItemsOrdered[getQtyOrdered()-1-i] = dvdList[i];
+        }
+        setItemsOrdered(newItemsOrdered);
+
+        // Thông báo
+        System.out.println("The list of disc has been added");
+    }
+
+    // Method to add 2 new DVD
+    public void addDigitalVideoDisc(DigitalVideoDisc disc1, DigitalVideoDisc disc2) {
+        // Kiểm tra xem giỏ hàng đã đầy chưa
+        if (getQtyOrdered() >= 19) {
+            System.out.println("The cart is almost full");
+            return;
+        }
+
+        // Tăng số lượng đĩa DVD trong giỏ hàng
+        setQtyOrdered(getQtyOrdered() + 2);
+
+        // Thêm đĩa DVD1 vào giỏ hàng
+        DigitalVideoDisc[] newItemsOrdered = getItemsOrdered();
+        newItemsOrdered[getQtyOrdered() - 1] = disc1;
+        setItemsOrdered(newItemsOrdered);
+
+        // Thêm đĩa DVD2 vào giỏ hàng
+        DigitalVideoDisc[] newItemsOrdered = getItemsOrdered();
+        newItemsOrdered[getQtyOrdered() - 1] = disc2;
+        setItemsOrdered(newItemsOrdered);
+
+        // Thông báo
+        System.out.println("The 2 disc has been added");
+    }
+
     // Method to remove a DVD
     public void removeDigitalVideoDisc(DigitalVideoDisc disc) {
         // Tìm kiếm đĩa DVD cần xóa
@@ -82,16 +128,15 @@ public class Cart {
     }
 
     // Method to calculate the total cost
-    public double totalCost() {
-        double cost = 0;
-        DigitalVideoDisc[] itemsOrdered = getItemsOrdered();
-        for (DigitalVideoDisc disc : itemsOrdered) {
-            if (disc != null) {
-                cost += disc.getCost();
-            }
-        }
+    // public double totalCost() {
+    // double cost = 0;
+    // DigitalVideoDisc[] itemsOrdered = getItemsOrdered();
+    // for (DigitalVideoDisc disc : itemsOrdered) {
+    // if (disc != null) {
+    // cost += disc.getCost();
+    // }
+    // }
 
-        // Làm tròn đến hai chữ số thập phân
-        return Math.round(cost * 100.0) / 100.0;
-    }
-}
+    // Làm tròn đến hai chữ số thập phân
+    return Math.round(cost*100.0)/100.0;
+}}
