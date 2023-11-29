@@ -1,3 +1,6 @@
+
+import java.util.ArrayList;
+
 public class Store {
     // Attribute
     private ArrayList<DigitalVideoDisc> itemsInStore = new ArrayList<>();
@@ -6,34 +9,34 @@ public class Store {
     public Store() {
     }
 
-    // Method to add a dvd
+    // Method to add a DVD to the store
     public void addDVD(DigitalVideoDisc disc) {
-        // Add to store
+        // Add the DVD to the store
         itemsInStore.add(disc);
 
         // Notify
-        System.out.println("The disc has been added");
+        System.out.println("The DVD has been added");
     }
 
-    // Method to remove a dvd
+    // Method to remove a DVD from the store
     public void removeDVD(DigitalVideoDisc disc) {
-        // Search for disc
+        // Search for the DVD
         int indexOfRemoved = itemsInStore.indexOf(disc);
 
-        // If not found
+        // If the DVD is not found
         if (indexOfRemoved == -1) {
-            System.out.println("The disc is not found");
+            System.out.println("The DVD is not found");
             return;
         }
 
-        // Remove
+        // Remove the DVD
         itemsInStore.remove(indexOfRemoved);
 
         // Notify
-        System.out.println("The disc has been removed");
+        System.out.println("The DVD has been removed");
     }
 
-    // Getter and Setter
+    // Getters and Setters
     public ArrayList<DigitalVideoDisc> getItemsInStore() {
         return itemsInStore;
     }
@@ -42,3 +45,4 @@ public class Store {
         this.itemsInStore = itemsInStore;
     }
 }
+
